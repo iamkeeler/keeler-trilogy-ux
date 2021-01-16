@@ -17,19 +17,32 @@
 <!-- Demo Objective-->
 <!-- Show Divs, classes, and sections -->
 
-    <body>
+    <body class="full">
         <!-- This is my header area using a "Header" tag -->
         <header>
-            <div class="header full">
-                <h1 class="txt-white">This is a header</h1>
+            <div class="header txt-white">
+                <h1>This is a header</h1>
             </div>
         </header>
 
         <!-- This is my main content area -->
-        <section class="full">
-            <div class="c-33"></div>
-            <div class="c-66 bg-violet"></div>
-            <div class="c-66 bg-red"></div>
+        <section class="full flex">
+            <div class="c-left-1-3 txt-white">
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ul>
+            </div>
+            <div class="c-right-2-3 flex">
+                <div class="c-2-3-item bg-violet txt-white">
+                    <h2>Hello</h2>
+                </div>
+                <div class="c-2-3-item bg-red">
+                    <h3>World</h3>
+                </div>
+            </div>
         </section>
     </body>
 </html>

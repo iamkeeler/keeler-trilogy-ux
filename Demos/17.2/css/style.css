@@ -1,38 +1,49 @@
-/* .full {
+.full {
     width: 100%;
-} */
+    margin: auto;
+}
 
-/* .header {
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header {
     background-color: black;
     height: auto;
-    padding: 2px;
-} */
+    width: 100%;
+    padding: 10px 0;
+}
 
-/* .txt-white {
-    color: white;
-} */
+.txt-white {
+    margin-left: 24px;
+    color: rgb(255, 221, 0);
+}
 
-/* .c-33 {
+.c-left-1-3 {
     width: 33%;
     height: 300px;
     background-color: blue;
-    float: left;
     margin: 10px;
     border-radius: 30px;
-} */
+}
 
-/* .c-66 {
+.c-right-2-3 {
     width: 60%;
+}
+
+.c-2-3-item {
+    width: 100%;
     height: 140px;
-    float: left;
     border-radius: 20px;
     margin: 10px;
-} */
+}
 
-/* .bg-violet {
+.bg-violet {
     background-color: blueviolet;
-} */
+} 
 
-/* .bg-red {
+ .bg-red {
     background-color: rgb(226, 80, 43);
-} */
+}
