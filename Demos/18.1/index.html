@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <!-- Meta Data -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+       
+        <!-- CSS Style -->
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+         
+        <!-- Google Fonts -->
+       
+
+        <!-- Title -->
+        <title>18.1 Demo</title> 
+    </head>
+
+    <!-- We'll create a "parent" section and then add child containers inside it -->
+    <body>
+       <!-- parent -->
+       <h1>Flexbox</h1>
+        <section class="flex-parent">
+            <!-- children -->
+            <div class="flex-child red">Child 1</div>
+            <div class="flex-child darkRed">Child 2</div>
+            <div class="flex-child blue">Child 3</div>
+            <div class="flex-child darkBlue">Child 3</div>
+        </section>
+        
+        <br>
+
+        <!-- A section to demo nested flexboxes -->
+        <h1>Nested Flexboxes</h1>
+        <section class="flex-parent">
+
+            <!-- sub flex box with a column -->
+            <div class="flex-sub">
+                <div class="flex-child red">Column 1</div>
+                <div class="flex-child darkRed">Column 2</div>
+                <div class="flex-child darkBlue">Column 3</div>
+                <div class="flex-child blue">Column 4</div>
+            </div>
+
+            <!-- the rest of the parent flex box items -->
+            <div class="flex-child red">Row 2</div>
+            <div class="flex-child red">Row 3</div>
+            <div class="flex-child red">Row 4</div>
+        </section>
+
+    </body>

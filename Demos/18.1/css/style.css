@@ -1,0 +1,47 @@
+/* We'll add the classes for the parent, children, and colors */
+.flex-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 24px;
+    background-color: gray;
+    border-radius: 24px;
+}
+
+/* This is the main child card */
+.flex-child {
+    height: 80px;
+    line-height: 80px;
+    width: 300px;
+    margin: 12px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    -webkit-box-shadow: 0px 3px 5px 3px rgba(0,0,0,0.2); 
+    box-shadow: 0px 3px 5px 3px rgba(0,0,0,0.2);
+}
+
+/* This is the sub flexbox */
+.flex-sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.red{
+    background-color: red;
+}
+
+.darkRed {
+    background-color: darkred;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.darkBlue {
+    background-color: darkblue;
+}
