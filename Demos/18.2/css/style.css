@@ -1,0 +1,97 @@
+/* colors */
+.red {
+    background-color: red;
+}
+
+.darkRed {
+    background-color: darkred;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.darkBlue {
+    background-color: darkblue;
+}
+
+.green {
+    background-color: green;
+}
+
+.lime {
+    background-color: lime;
+}
+
+.darkGreen {
+    background-color: darkgreen;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+/* Main Tags */
+h1 {
+    font-family: 'Roboto Slab', serif;
+    padding-left: 24px;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+
+}
+
+.header h1 {
+    color: white;
+}
+
+/* Gird classes */
+.grid-parent{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    margin-bottom: 45px;
+    grid-template-columns: 1fr  1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "top-left top-left top-right"
+    "top-left top-left middle-right"
+    "bottom-left bottom-left middle-right"
+    ;
+}
+
+.nested-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-areas: 
+    "top-left top-left top-right"
+    "top-left top-left middle-right"
+    "bottom-left bottom-left middle-right"
+    ;
+}
+
+.grid-child {
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.top-left {
+    grid-area: top-left;
+}
+
+.top-right {
+    grid-area: top-right;
+}
+
+.middle-right {
+    grid-area: middle-right;
+}
+
+.bottom-left {
+    grid-area: bottom-left;
+}
