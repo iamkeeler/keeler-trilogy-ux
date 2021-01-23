@@ -53,6 +53,7 @@ h1 {
     width: 100%;
     height: 700px;
     display: grid;
+    margin-bottom: 45px;
     grid-template-columns: 1fr  1fr 1fr;
     grid-template-rows: 1fr 2fr 1fr;
     grid-template-areas: 
@@ -65,8 +66,8 @@ h1 {
 .nested-grid {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr  1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
     grid-template-areas: 
     "top-left top-left top-right"
     "top-left top-left middle-right"
