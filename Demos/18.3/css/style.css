@@ -1,0 +1,133 @@
+/* colors */
+.red {
+    background-color: red;
+}
+
+.darkRed {
+    background-color: darkred;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.darkBlue {
+    background-color: darkblue;
+}
+
+.green {
+    background-color: green;
+}
+
+.lime {
+    background-color: lime;
+}
+
+.darkGreen {
+    background-color: darkgreen;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+/* Main Tags */
+h1 {
+    font-family: 'Roboto Slab', serif;
+    padding-left: 24px;
+}
+
+/* Grid */
+.grid-parent {
+    display: grid;
+    grid-template: 100px 1fr 1fr / 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'header header header header'
+    'button-1 button-1 button-2 button-2'
+    'button-3 button-3 button-4 button-4';
+    height: 600px;
+    width: 100%;
+}
+
+.button {
+    border-radius: 24px;
+    background-color: black;
+    margin: 12px;
+    transition: background-color 0.5s ease;
+    padding: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.button:hover {
+    background-color: blueviolet;
+}
+
+.header {
+    background-color: black;
+    grid-area: header;
+    margin: 12px;
+}
+
+.header h1 {
+    color: white;
+}
+
+.button-1 {
+    grid-area: button-1;
+}
+
+.button-2 {
+    grid-area: button-2;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button-2:hover {
+    transform: scaleY(0.8);
+}
+.button-3 {
+    grid-area: button-3;
+    transition: transform 0.5s ease-in-out;
+}
+
+.button-3:hover{
+    transform: rotate(180deg);
+}
+
+.button-4 {
+    grid-area: button-4;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button-4:hover{
+    transform: skewY(20deg);
+}
+
+/* Keyframes */
+.circle {
+    margin: auto;
+    margin-top: 60px;
+    height: 44px;
+    width: 44px;
+    border-radius: 22px;
+}
+.bounce {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+	0%
+		{opacity:1;
+        transform:scale(.9);
+        transform: translateX(-100px);}
+	50%
+        {opacity:1;
+        transform: scale(1);
+        transform: translateX(100px);}
+	100%
+		{opacity:1;
+        transform:scale(0.9);
+        transform: translateX(-100px);}
+}
