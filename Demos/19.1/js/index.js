@@ -29,3 +29,5 @@ $("#resetButton").on("click", function(){
     $("#thisButton").removeClass("blue");
     $("#thisButton").addClass("black");
 });
+
+$(".button").on("click")
