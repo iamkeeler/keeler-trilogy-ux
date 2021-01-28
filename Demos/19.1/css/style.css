@@ -1,0 +1,39 @@
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template: 1/2;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.button {
+    height: 88px;
+    width: 244px;
+    margin: 20px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 88px;
+    font-size: 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
