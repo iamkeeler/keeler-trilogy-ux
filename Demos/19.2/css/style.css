@@ -1,0 +1,17 @@
+.redBlock {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+.container {
+    margin: 44px;
+}
+
+.input {
+    margin-bottom: 20px;
+}
