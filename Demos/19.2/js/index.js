@@ -4,8 +4,11 @@ $('.redBlock').on('click', function() {
     var widthValue = $('#widthInput').val();
 
     // Targeting the "redBlock" class and animating it
-    $('.redBlock').animate({width: widthValue});
-
+    if (widthValue >= 0) {
+        $(this).animate({width: widthValue});
+    } else {
+        alert("The width can't be a negative number.");
+    }
 });
 
 // Challenges
