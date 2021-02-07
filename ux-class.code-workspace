@@ -1,10 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "Demos"
-		},
-		{
-			"path": "Activities"
+			"path": "Activities/20.2-activities"
 		}
 	],
 	"settings": {}

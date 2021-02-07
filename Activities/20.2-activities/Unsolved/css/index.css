@@ -12,3 +12,22 @@ footer {
 .card {
   margin: 0 auto;
 }
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.jumbotron {
+  height: calc(100vh - 25px);
+  background-image: url(../images/rockOn_dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.flexy {
+  text-align: center;
+  justify-content: center;
+}
